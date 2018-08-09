@@ -122,7 +122,19 @@
     <section id="about" class="container content-section text-left">
         <div class="row">
             <div class="col-lg-12">
-
+ <iframe id="forum_embed"
+    src="javascript:void(0)"
+    scrolling="no"
+    frameborder="0"
+    width="900"
+    height="700">
+  </iframe>
+  <script type="text/javascript">
+    document.getElementById('forum_embed').src =
+       'https://groups.google.com/forum/embed/?place=forum/olenovcopt'
+       + '&showsearch=true&showpopout=true&showtabs=false'
+       + '&parenturl=' + encodeURIComponent(window.location.href);
+  </script>
                 <h2>About BIDS</h2>
         <p>Neuroimaging experiments result in complicated data that can be arranged in many different ways. So far there is no consensus how to organize and share data obtained in neuroimaging experiments. Even two researchers working in the same lab can opt to arrange their data in a different way. Lack of consensus (or a standard) leads to misunderstandings and time wasted on rearranging data or rewriting scripts expecting certain structure. Here we describe a simple and easy to adopt way of organizing neuroimaging and behavioral data.</p>
 
